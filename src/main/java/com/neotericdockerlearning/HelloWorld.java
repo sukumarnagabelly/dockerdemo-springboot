@@ -9,6 +9,6 @@ public class HelloWorld {
     @GetMapping(value = "api/hello",consumes = "application/json",produces = "application/json")
     public String getHelloWorld (){
         System.out.println("happy dasara festival");
-        return "happy dasara with neoteric";
+        return "happy dasara with neoteric family";
     }
 }

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping(value = "api/hello",consumes = "application/json",produces = "application/json")
     public String getHelloWorld (){
-        System.out.println("hello");
-        return "hello wolrd";
+        System.out.println("happy dasara");
+        return "happy dasara with neoteric";
     }
 }
